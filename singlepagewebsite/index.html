@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RMAIDI WALID - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          RMAIDI WALID
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          walid@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#Skills">Skills</a>
+          <a class="topmenu" href="#Projects">Projects</a>
+          <a class="topmenu" href="#Recommendations">Recommendations</a>         
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="/copi.png" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi! I'm RMAIDI WALID <img src="/Capture d’écran 2023-12-10 150950.png" width="60px"/>
+          </h1>
+          <p>
+            I'm a passionate individual with a love for exploring the possibilities of technology. 
+            My journey in the digital world has been both exciting and rewarding. 
+            Whether it's coding, problem-solving, or diving into the latest tech trends, I find joy in the process of creation.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/CSS3.png"/>
+          <h6>Css3</h6>
+          <p>2 years experience</p>
+        </div>  
+        
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+        
+        <div class="skill">
+          <img src="html_finalprojimages/react.png"/>
+          <h6>React</h6>
+          <p>1 year experience</p>
+        </div>  
+        
+        <div class="skill">
+          <img src="html_finalprojimages/java.png"/>
+          <h6>Java</h6>
+          <p>4 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/node.png"/>
+          <h6>Nodejs</h6>
+          <p>4 years experience</p>
+        </div>  
+         
+       
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+    
+      <div id="projects-container" class="projects-container">
+        <div class="project-card">
+          <h3>Space Explorer App</h3>
+          <ul>
+            <li>Developed an immersive space exploration application featuring real-time updates from NASA's API and a 3D virtual tour of the solar system using Three.js.</li>
+            <li>Implemented user authentication and personalized dashboards for tracking favorite celestial objects.</li>
+          </ul>
+        </div>
+        <hr>
+        <div class="project-card">
+          <h3>AI-Powered Recipe Generator</h3>
+          <ul>
+            <li>Created a web application that generates personalized recipes based on user preferences using machine learning algorithms and natural language processing.</li>
+            <li>Integrated the application with a recommendation engine to suggest unique and delicious dishes.</li>
+          </ul>
+        </div>
+        <hr>
+        <div class="project-card">
+          <h3>Virtual Reality Travel Experience</h3>
+          <ul>
+            <li>Designed and developed a virtual reality travel platform that allows users to explore iconic destinations around the world from the comfort of their homes.</li>
+            <li>Implemented interactive 360-degree videos and integrated with VR headsets for an immersive experience.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div style="clear:both;"></div>
+    
+
+   <!-- Recommendations -->
+<section id="recommendations">
+  <h2>Recommendations</h2>
+  <div style="clear:both;"></div>
+  <div class="all_recommendations" id="all_recommendations">
+    <div class="recommendation">
+      <span>&#8220;</span>
+      Walid is an exceptional problem solver. 
+      He brings creativity and efficiency to every project. 
+      His ability to collaborate and communicate effectively makes him a valuable team member. 
+      Highly recommended!
+      <span>&#8221;</span>
+    </div>
+    <div class="recommendation">
+      <span>&#8220;</span>
+      Working with Alex has been a pleasure. 
+      He consistently delivers high-quality work with attention to detail. 
+      His positive attitude and dedication to success make him an invaluable asset to any team.
+      <span>&#8221;</span>
+    </div>
+    <div class="recommendation">
+      <span>&#8220;</span>
+      I had the pleasure of collaborating with Walid on a challenging project. 
+      His technical expertise and commitment to excellence were evident throughout. 
+      An outstanding team player and problem solver!
+      <span>&#8221;</span>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for leaving us a recommendation</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
